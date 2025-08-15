@@ -1,0 +1,41 @@
+# OS / IDE
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+.venvs/
+env/
+venv/
+*egg-info/
+dist/
+build/
+site/
+.coverage
+htmlcov/
+.mypy_cache/
+.pyright/
+.pyre/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets / DBs
+.env
+.env.*
+*.db
+
+# Data & models (keep big files out of git)
+data/
+datasets/
+models/
+*.h5
+*.pt
+*.pkl
