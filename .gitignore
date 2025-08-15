@@ -39,3 +39,6 @@ models/
 *.h5
 *.pt
 *.pkl
+
+# Ruff cache
+.ruff_cache/
